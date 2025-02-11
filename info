@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Darts Leagues</title>
+    <style>
+        body {
+            background-color: black;
+            color: gold;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        .logo {
+            width: 200px;
+            margin-top: 20px;
+        }
+        .button {
+            display: block;
+            width: 80%;
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 15px;
+            background: gold;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: darkgoldenrod;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="DDL-removebg copy.png" alt="Discord Darts Leagues Logo" class="logo">
+        <h1>Welcome to Discord Darts Leagues</h1>
+        <a href="#" class="button">Tournaments</a>
+        <a href="#" class="button">Leagues</a>
+        <a href="#" class="button">Submit League Results</a>
+        <a href="#" class="button">Tournament Stats</a>
+        <a href="#" class="button">League Stats</a>
+    </div>
+</body>
+</html>
